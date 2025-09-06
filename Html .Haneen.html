@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>🎶 كوكب الألحان العالمي</title>
+  <style>
+    body {
+      font-family: "Tahoma", sans-serif;
+      direction: rtl;
+      background: #f0f4f8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 {
+      margin: 0;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+    header p {
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+    nav {
+      background: #483d8b;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #6a5acd;
+      margin-bottom: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #6a5acd;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    img {
+      max-width: 250px;
+      border-radius: 10px;
+      margin: 10px;
+    }
+    footer {
+      background: #6a5acd;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .gallery div {
+      text-align: center;
+      margin: 10px;
+    }
+    .opinion-box {
+      margin-top: 20px;
+    }
+    .opinion-box textarea {
+      width: 100%;
+      height: 100px;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+    .opinion-box button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #6a5acd;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .opinion-box button:hover {
+      background: #483d8b;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎶 كوكب الألحان العالمي 🎶</h1>
+    <p>عالم الموسيقى والألحان – تعلم واستمتع بالألحان المختلفة</p>
+  </header>
+
+  <nav>
+    <a href="#about">عن الموقع</a>
+    <a href="#types">أنواع الموسيقى</a>
+    <a href="#instruments">الأدوات الموسيقية</a>
+    <a href="#gallery">ألبوم الصور</a>
+    <a href="#contact">تواصل معنا</a>
+    <a href="#opinions">الآراء</a>
+  </nav>
+
+  <section id="about">
+    <h2>عن كوكب الألحان</h2>
+    <p>
+      منصة <b>كوكب الألحان العالمي</b> تهدف لنشر الثقافة الموسيقية وتعليم العزف والغناء، 
+      اكتشاف أجمل الألحان، واستعراض تاريخ الموسيقى بأنواعها المختلفة حول العالم.
+    </p>
+  </section>
+
+  <section id="types">
+    <h2>🎵 أنواع الموسيقى</h2>
+    <ul>
+      <li>الموسيقى الكلاسيكية</li>
+      <li>الجاز</li>
+      <li>الروك والموسيقى البديلة</li>
+      <li>البوب</li>
+      <li>الموسيقى العربية</li>
+      <li>الموسيقى الإلكترونية</li>
+    </ul>
+  </section>
+
+  <section id="instruments">
+    <h2>🎹 أشهر الأدوات الموسيقية وأسعارها</h2>
+    <table>
+      <tr>
+        <th>الأداة</th>
+        <th>الوصف</th>
+        <th>النوع</th>
+        <th>السعر</th>
+      </tr>
+      <tr>
+        <td>بيانو</td>
+        <td>أداة مفاتيح للعزف الكلاسيكي</td>
+        <td>آلات مفاتيح</td>
+        <td>500,000 ريال يمني</td>
+      </tr>
+      <tr>
+        <td>جيتار كهربائي</td>
+        <td>أداة موسيقية للروك والموسيقى الحديثة</td>
+        <td>وترية</td>
+        <td>350,000 ريال يمني</td>
+      </tr>
+      <tr>
+        <td>كمان</td>
+        <td>آلة وترية تقليدية</td>
+        <td>وترية</td>
+        <td>400,000 ريال يمني</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="gallery">
+    <h2>📸 ألبوم الصور الموسيقية</h2>
+    <div class="gallery">
+      <div>
+        <img src="https://images.unsplash.com/photo-1511376777868-611b54f68947" alt="بيانو">
+        <p>عزف البيانو</p>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="جيتار">
+        <p>جيتار كهربائي</p>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4" alt="كمان">
+        <p>كمان كلاسيكي</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>📞 تواصل معنا</h2>
+    <p>🌐 عبر الإنترنت – مركز كوكب الألحان</p>
+    <p>📱 الجوال: +967-777-111-111</p>
+    <p>📧 البريد الإلكتروني: f87666313@gmail.com</p>
+    <p>⏰ ساعات العمل: 10:00 صباحاً – 8:00 مساءً (السبت – الخميس)</p>
+  </section>
+
+  <section id="opinions">
+    <h2>📝 آراء الزوار</h2>
+    <div class="opinion-box">
+      <label for="opinion">شاركنا رأيك:</label><br>
+      <textarea id="opinion" placeholder="اكتب رأيك هنا..."></textarea><br>
+      <button onclick="alert('تم إرسال رأيك بنجاح ✅ شكراً لمشاركتك!')">إرسال</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© جميع الحقوق محفوظة حنين القاسمي 2025</p>
+  </footer>
+
+</body>
+</html>
